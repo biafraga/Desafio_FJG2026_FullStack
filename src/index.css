@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+:root {
+  --azul-escuro: #00508A; 
+  --azul-claro: #12BBEF;
+  --azul-fundo-cards: #0085B3;
+  --cor-texto-principal: #363636;
+  --cinza-fundo-pagina: #ECF1F4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrart', sans-serif;
+}
