@@ -36,7 +36,10 @@
 .footer-titulo {
     font-size: 32px;
     font-weight: normal;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin: 20px 40px;
+    padding-bottom: 20px;
+    
 }
 
 .cor-azul {
