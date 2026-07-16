@@ -1,16 +1,31 @@
-# React + Vite
+## O Projeto
+A aplicação é uma interface web para o portal **RepertóRIO**, desenvolvida para exibir dinamicamente publicações e relatórios da Prefeitura do Rio de Janeiro. A página carrega dados de um arquivo JSON local e renderiza as informações da publicação principal em destaque, além de listar publicações relacionadas filtradas dinamicamente pela mesma categoria.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Como executar o projeto localmente
 
-Currently, two official plugins are available:
+1. **Clone este repositório:**
+```bash
+git clone (https://github.com/biafraga/Desafio_FJG2026_FullStack.git)
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+2. **Acesse a pasta principal do repositório:**
+```bash
+cd Desafio_FJG2026_FullStack
+```
 
-## React Compiler
+3. **Acesse a pasta do projeto Vite:**
+```bash
+cd RepertoRio
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4. **Instale as dependências:**
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+5. **Inicie o servidor de desenvolvimento:**
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+6. O Vite iniciará um servidor local. Basta abrir o navegador e acessar o link informado no terminal
